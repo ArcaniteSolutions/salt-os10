@@ -92,6 +92,7 @@ def managed(name,
 
     else:
         su('admin', _in="commit")
+        su('admin', _in="copy running-configuration startup-configuration")
 
     salt.utils.files.remove(sfn)
 
