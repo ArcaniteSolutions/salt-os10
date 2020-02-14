@@ -60,6 +60,8 @@ def managed(name,
 
     errors = errors.getvalue()
 
+    errors = errors.replace("WARNING: Cluster manager is using default credentials", "").strip()
+
     if errors:
         ret['result'] = False
         ret['comment'] = errors

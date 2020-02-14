@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="salt-os10",
-    version="0.0.1",
+    version="0.0.2",
     description="Small salt module providing os10.managed, to apply basic config on dell OS10 switches",
     author="Maximilien Cuony",
     author_email="maximilien.cuony@arcanite.ch",
